@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="40"
+   height="40"
+   viewBox="0 0 10.583334 10.583333"
+   version="1.1"
+   id="svg5">
+  <defs
+     id="defs2" />
+  <path
+     id="path3913"
+     style="color:#000000;fill:#ffffff;stroke-width:0.529167"
+     d="M 4.7480307 3.8163046 C 4.2230351 3.8163046 3.7930501 4.2462895 3.7930502 4.7712851 L 3.7930502 5.7949952 C 3.7930502 6.3199908 4.2230351 6.7499757 4.7480307 6.7499757 L 5.0958131 6.7499757 L 5.0958131 3.8163046 L 4.7480307 3.8163046 z M 5.6249797 3.8163046 L 5.6249797 6.7499757 L 5.9727621 6.7499757 C 6.4977578 6.7499757 6.9277426 6.3199908 6.9277426 5.7949952 L 6.9277426 4.7712851 C 6.9277426 4.2462895 6.4977578 3.8163045 5.9727621 3.8163046 L 5.6249797 3.8163046 z " />
+  <path
+     style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.46621641;stroke-dasharray:none;stroke-opacity:1"
+     id="path8267"
+     d="M 7.8827332,5.5047011 7.0747371,5.9711979 6.2667411,6.4376946 V 5.5047011 4.5717076 l 0.8079961,0.4664968 0.807996,0.4664967"
+     transform="matrix(1.1350237,0,0,1.1350237,-5.0850515,-0.94030693)"/>
+  <path
+     style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.46621641;stroke-dasharray:none;stroke-opacity:1"
+     id="path8267-7"
+     d="M 7.8827332,5.5047011 7.0747371,5.9711979 6.2667411,6.4376946 V 5.5047011 4.5717076 l 0.8079961,0.4664968 0.807996,0.4664967"
+     transform="matrix(-1.1350237,0,0,1.1350237,15.757893,-0.94035913)"/>
+  <path
+     style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.52916667;stroke-opacity:1;stroke-dasharray:none"
+     d="M 1.5904766,5.352193 H 0.67714991"
+     id="path6609-9" />
+  <path
+     style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.52916667;stroke-opacity:1;stroke-dasharray:none"
+     d="M 9.9895811,5.35866 H 9.0762542"
+     id="path6609-9-0" />
+  <path
+     id="path3932"
+     style="color:#000000;display:inline;fill:#ffffff;-inkscape-stroke:none"
+     d="M 5.0958131 2.9279867 L 5.0958131 3.8163046 L 5.6249797 3.8163046 L 5.6249797 2.9279867 L 5.0958131 2.9279867 z M 5.0958131 6.7499757 L 5.0958131 7.5762819 L 5.6249797 7.5762819 L 5.6249797 6.7499757 L 5.0958131 6.7499757 z " />
+</svg>

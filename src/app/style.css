@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    background-color: rgb(12, 12, 12);
+}
+
+.mainPanel {
+    min-height: 500px;
+    margin: 5px 10px;
+    min-width: fit-content;
+}

@@ -1,0 +1,11 @@
+.header {
+    cursor: pointer;
+    padding: 10px 10px 10px 20px;
+    display: grid;
+    grid-template-columns: max-content 1fr;
+}
+
+.headerTitle {
+    margin-left: 15px !important;
+    line-height: 40px !important;
+}

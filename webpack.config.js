@@ -6,7 +6,6 @@ const config = {
     output: {
         path: path.resolve(__dirname, "dist"),
         filename: "bundle.js",
-
         publicPath: "/",
     },
     module: {
@@ -24,7 +23,17 @@ const config = {
                 test: /\.css$/,
                 include: [ path.resolve(__dirname, "src") ],
                 exclude: /node_modules/,
-                use: ["styte-loader", "css-loader"]
+                use: ["style-loader", "css-loader"]
+            },
+            {
+                test: /\.svg$/,
+                issuer: /\.[jt]sx?$/,
+                use: [{
+                    loader: '@svgr/webpack',
+                    options: {
+                        typescript: true
+                    }
+                }]
             }
         ]
     },
@@ -43,6 +52,7 @@ const config = {
         static: {
             directory: path.join(__dirname, "public")
         },
+        historyApiFallback: true,
         hot: true,
         port: 3000
     }
