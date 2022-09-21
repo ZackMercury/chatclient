@@ -22,7 +22,12 @@ const LobbyPage = () => {
     const navigate = useNavigate();
 
     const createRoom = async () => {
-        const res = await axios.post("/api/chat/createRoom");
+        const at = localStorage.getItem("at");
+        const res = await axios.post("/api/chat/createRoom", null, {
+            headers: {
+                Authorization: "Bearer " + at
+            }
+        });
         const roomID = res.data;
         navigate("/room/" + roomID);
     }

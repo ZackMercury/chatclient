@@ -1,0 +1,32 @@
+.roomPageWrapper {
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+#messages {
+    height: 100px;
+    overflow: auto;
+}
+
+.message {
+
+}
+
+.byMe {
+    color: rgb(100, 1, 123);
+}
+
+#videoContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#videoContainer * {
+    width: 100%;
+}
+
+#sendField {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto max-content;
+}
